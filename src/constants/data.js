@@ -2,56 +2,59 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Sineann Pinot Noir',
+    price: '13 | 50',
+    tags: '2016 | Eola-Amity Hills, OR',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Jordan Cabernet Sauvignon',
+    price: '15 | 58',
+    tags: '2017 | Sonoma County, CA',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
-  },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
+    title: 'Chateau Miraval Rose',
+    price: '12 | 44',
+    tags: '2016 | AOC Côtes de Provence, FR',
+  }
 ];
+
+const beers = [
+  {
+    title: '7K IPA',
+    price: '8',
+    tags: 'Santa Fe Brewing Co. | Santa Fe, NM, USA',
+  },
+  {
+    title: 'Kirin Ichiban',
+    price: '7',
+    tags: 'Kirin Brewing Co. | Nakano City, Tokyo, JP',
+  },
+]
 
 const cocktails = [
   {
     title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    price: '12',
+    tags: 'Aperol | Villa Marchesi prosecco | soda',
   },
   {
     title: "Dark 'N' Stormy",
-    price: '$16',
+    price: '11',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
     title: 'Daiquiri',
-    price: '$10',
+    price: '11',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
     title: 'Old Fashioned',
-    price: '$31',
+    price: '13',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
     title: 'Negroni',
-    price: '$26',
+    price: '12',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];
@@ -79,4 +82,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, beers, cocktails, awards };

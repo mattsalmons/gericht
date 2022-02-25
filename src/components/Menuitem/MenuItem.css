@@ -30,6 +30,6 @@
 
 .app__menuitem-price {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
 }
